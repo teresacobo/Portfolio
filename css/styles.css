@@ -1,0 +1,180 @@
+*{
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.navbar { 
+    font-family: 'Fira Sans';
+    font-size: 18px;
+    color: #18242F;
+    overflow: hidden;
+} 
+
+.menu-area li a {
+    text-decoration: none;
+}
+.menu-area li {
+    list-style: none;
+}
+
+header {
+        position: fixed;
+        width: 100%;
+        z-index: 1;
+        padding: 24px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+}
+
+
+  .menu-area li {
+    display: inline-block;
+  }
+  
+  .menu-area a {
+    letter-spacing: 1px;
+    display: block;
+    color: #18242F;
+    padding: 0 25px;
+    line-height: 30px;
+    position: relative;
+    z-index: 1;
+  }
+
+  .whois {
+    padding-left: 24px;
+    display: flex;
+}
+
+h1 {
+    color: #38658E;
+}
+
+h2 {
+    font-family: 'Fira Sans';
+    font-size: 48px;
+    color: #18242F;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-family: 'Fira Sans';
+    font-size: 24px;
+    font-weight: 200;
+    color: #18242F;
+    margin-bottom: 20px;
+}
+
+.bloque1 {
+    background-image: url(/Users/teresa/Documents/IRONHACK/Portfolio/imagenes/fondo-marmol-producto-digital.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    padding: 128px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.bloque2 {
+    background-color: rosybrown;
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    padding: 128px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+
+.bloque3 {
+    background-color: lightsteelblue;
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    padding: 128px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.button-grey a {
+    font-family: 'Fira Sans';
+    font-size: 21px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+  }
+
+  .button-grey { 
+    border: none;
+    background: rgba(24, 36, 47, 0.76);
+    padding: 15px 70px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 100px;
+}
+
+.foto-cv {
+    box-shadow: -15px 19px 45px rgba(0, 0, 0, 0.25);
+    width: calc(33% - 12px);
+
+}
+
+.about-me {
+    width: calc(66% - 12px);
+}
+
+#footer {
+    font-family: 'Fira Sans';
+    font-size: 15px;
+    color: #18242F;
+    text-decoration: none;
+    background-color: peachpuff;
+    width: 100%;
+    padding: 24px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;    
+}
+
+body {
+    overflow-x: hidden;
+
+
+}
+
+#footer a {
+    text-decoration: none;
+    color: lightslategrey}
+
+
+@media only screen and (max-width: 768px) {
+
+
+    .bloque1{
+        padding: 20px !important;
+    }
+
+}
